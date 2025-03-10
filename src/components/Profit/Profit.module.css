@@ -1,0 +1,55 @@
+.profit_image {
+  height: 59px;
+}
+
+.profit_stat {
+  height: 220px;
+  background: #fff;
+  display: flex;
+  padding-left: 80px;
+  padding-right: 175px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profit_stat_title {
+  color: #000;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px; /* 127.273% */
+  letter-spacing: -1.76px;
+  text-transform: uppercase;
+}
+
+.profit_stat_title_data {
+  color: #000;
+  font-variant-numeric: slashed-zero;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: -0.56px;
+  opacity: 0.5;
+}
+
+.profit_stat_data {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.profit_stat_data_value {
+  color: #6a54ff;
+  font-variant-numeric: slashed-zero;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%; /* 66px */
+  letter-spacing: -1.2px;
+  text-transform: uppercase;
+}

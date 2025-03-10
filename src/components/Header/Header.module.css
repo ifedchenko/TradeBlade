@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.navList {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px; /* 121.429% */
+  text-transform: uppercase;
+  display: flex;
+  gap: 32px;
+}
+.headerButtons {
+  margin-top: 13px;
+  margin-bottom: 13px;
+  display: flex;
+  gap: 12px;
+}
+
+.headerButtonSignIn {
+  padding: 11px 24px;
+  border-radius: 3px;
+  border: 1.5px solid #57e1ff;
+  background: rgba(87, 225, 255, 0.2);
+  box-shadow: 0px 0px 4px 0px #57e1ff;
+  color: var(--Q, #57e1ff);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.headerButtonSignUp {
+  padding: 11px 24px;
+  border-radius: 3px;
+  border: 1px solid #57e1ff;
+  background: #57e1ff;
+  box-shadow: 0px 0px 4px 0px #57e1ff;
+  color: #030718;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
