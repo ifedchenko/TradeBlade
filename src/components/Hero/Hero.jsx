@@ -12,7 +12,7 @@ const Hero = () => {
         </h2>
         <div className={styles.inputContainer}>
           <input
-            type="text"
+            type="email"
             placeholder="Ваш e-mail"
             className={styles.input}
           />

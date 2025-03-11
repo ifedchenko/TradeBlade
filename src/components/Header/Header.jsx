@@ -3,9 +3,9 @@ import styles from "./Header.module.css";
 
 const Header = () => {
   const links = [
-    { name: "цифры", path: "/" },
-    { name: "сделки онлайн", path: "/some-link1" },
-    { name: "о компании", path: "/some-link2" },
+    { name: "цифры", path: "#numbers" },
+    { name: "сделки онлайн", path: "#deals" },
+    { name: "о компании", path: "#about" },
     { name: "как начать", path: "/some-link3" },
     { name: "тарифы", path: "/some-link4" },
     { name: "отзывы", path: "/some-link5" },

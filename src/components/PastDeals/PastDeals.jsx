@@ -142,7 +142,7 @@ const PastDeals = () => {
   }, []);
 
   return (
-    <section className={styles.past_deals}>
+    <section className={styles.past_deals} id="deals">
       <div>
         <h2 className={styles.past_deals_title}>Прошедшие сделки</h2>
         <p className={styles.past_deals_status}>Онлайн</p>

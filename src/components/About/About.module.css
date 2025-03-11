@@ -1,34 +1,58 @@
-.hero {
-  padding-top: 130px;
-  padding-bottom: 134px;
-  display: flex;
-  justify-content: space-between;
+.about_image {
+  height: 59px;
+}
+
+.about_description {
+  background: #fff;
   padding-left: 80px;
   padding-right: 80px;
+  padding-top: 56px;
+  padding-bottom: 92px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.details {
-  max-width: 630px;
+.about_text {
+  width: 413px;
 }
-
-.details h1 {
-  color: #fff;
-  font-size: 60px;
+.about_text_title {
+  color: #000;
+  font-size: 44px;
   font-style: normal;
   font-weight: 700;
-  line-height: 72px; /* 120% */
-  letter-spacing: -2.4px;
+  line-height: 56px; /* 127.273% */
+  letter-spacing: -1.76px;
   text-transform: uppercase;
 }
 
-.details h2 {
-  margin-top: 12px;
-  color: #e7f7f8;
+.about_text_descritpion {
+  color: #030718;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px; /* 125% */
-  opacity: 0.8;
+  margin-top: 40px;
+}
+
+.about_form {
+  box-sizing: border-box;
+  width: 631px;
+  height: 244px;
+  border-radius: 4px;
+  background: #6a54ff;
+  padding: 32px 64px;
+  margin-top: 36px;
+}
+
+.about_form_title {
+  color: #fff;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px; /* 128.571% */
+  letter-spacing: -1.12px;
+  text-align: center;
+  margin-bottom: 32px;
 }
 
 .inputContainer {
@@ -38,7 +62,7 @@
   width: 500px;
   height: 60px;
   border-radius: 4px;
-  background: #201a4f;
+  background: #4a3bb3;
 }
 
 .input {
@@ -46,7 +70,7 @@
   font-size: 20px 16px;
   border: 0;
   flex: 1;
-  background: #201a4f;
+  background: #4a3bb3;
   color: #fff;
   font-size: 16px;
   font-style: normal;
@@ -54,7 +78,7 @@
   line-height: 20px; /* 125% */
   letter-spacing: -0.16px;
   text-transform: uppercase;
-  opacity: 0.34;
+  /* opacity: 0.34; */
 }
 
 .input:focus {
@@ -75,21 +99,5 @@
   background: #57e1ff;
   box-shadow: 0px 0px 4px 0px #57e1ff;
   cursor: pointer;
-  margin-right: 3px;
-}
-
-.details h3 {
-  margin-top: 12px;
-  color: #fff;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px; /* 142.857% */
-  opacity: 0.3;
-}
-
-.hero img {
-  width: 469px;
-  max-width: 469px;
-  margin-right: 53px;
+  margin-right: 2px;
 }
