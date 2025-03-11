@@ -3,5 +3,8 @@
 <symbol id="profit-stat-desktop" viewBox="0 0 341 32">
 <path fill="#fff" d="M0 0h307.033c1.132 0 2.217 0.45 3.017 1.25l30.75 30.75h-340.8v-32z"></path>
 </symbol>
+<symbol id="arrow" viewBox="0 0 11 18">
+<path fill="#fff" stroke="#35FF9E" stroke-width="2" d="M5.71429 2L10 6.5M5.71429 2L1 6.5M5.71429 2V18"></path>
+</symbol>
 </defs>
 </svg>
